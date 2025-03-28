@@ -1,0 +1,23 @@
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 46326659
+      - Average = 330583612
+      - Number of active elements = 100
+      - Number of masked-off = 2
+    + Starting statistics run number #2:
+      - Standard deviation = 40261862
+      - Average = 327217180
+      - Number of active elements = 98
+      - Number of masked-off = 1
+    + Starting statistics run number #3:
+      - Standard deviation = 37981600
+      - Average = 325806119
+      - Number of active elements = 97
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  325806119 ns
+  * Dumping runtime informations:
+    - Filename: scalar_naive_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
