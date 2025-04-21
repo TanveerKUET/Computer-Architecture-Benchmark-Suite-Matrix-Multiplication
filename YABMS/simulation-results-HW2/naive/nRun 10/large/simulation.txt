@@ -1,0 +1,2 @@
+Running "scalar_naive" implementation:
+  * Invoking the implementation 100 times .... Segmentation fault (core dumped)

@@ -1,0 +1,18 @@
+tanveer@Tanveer:/mnt/f/PhD-KFUPM/testing/YABMS$ ./build/mmultopt -i opt -r 550 -c 620 -p 480 -b 32
+
+matched
+
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 6915015
+      - Average = 94959162
+      - Number of active elements = 10
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  94959162 ns
+  * Dumping runtime informations:
+    - Filename: scalar_opt_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
+

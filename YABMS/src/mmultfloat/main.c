@@ -337,7 +337,7 @@ int main(int argc, char** argv)
   printf("Running \"%s\" implementation:\n", impl_str);
 
   printf("  * Invoking the implementation %d times .... ", num_runs);
-  //num_runs = 100;  //change it to 1 whene testing
+  num_runs = 10;  //change it to 1 whene testing
   int run = 1;
   for (int i = 0; i < num_runs; i++) {
     __SET_START_TIME();

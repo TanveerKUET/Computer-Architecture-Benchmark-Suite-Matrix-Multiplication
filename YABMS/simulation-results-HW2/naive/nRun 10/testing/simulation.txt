@@ -1,0 +1,21 @@
+tanveer@Tanveer:~$ cd /mnt/f/PhD-KFUPM/testing/YABMS/
+tanveer@Tanveer:/mnt/f/PhD-KFUPM/testing/YABMS$ rm -r build
+tanveer@Tanveer:/mnt/f/PhD-KFUPM/testing/YABMS$ make
+tanveer@Tanveer:/mnt/f/PhD-KFUPM/testing/YABMS$ ./build/mmultopt -i opt -r 16 -c 12 -p 8 -b 8
+
+###############Outcomes for 10 Runs#################
+matched
+
+  * Verifying results .... Success
+  * Running statistics:
+    + Starting statistics run number #1:
+      - Standard deviation = 1742
+      - Average = 5005
+      - Number of active elements = 10
+      - Number of masked-off = 0
+  * Runtimes (MATCHING):  5005 ns
+  * Dumping runtime informations:
+    - Filename: scalar_naive_runtimes.csv
+    - Opening file .... Succeeded
+    - Writing runtimes ... Finished
+    - Closing file handle .... Finished
